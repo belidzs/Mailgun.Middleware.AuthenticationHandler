@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailgun.Middleware.AuthenticationHandler", "Mailgun.Middleware.AuthenticationHandler\Mailgun.Middleware.AuthenticationHandler.csproj", "{7AC69AAA-0825-4E0C-A382-FFE6009A56A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailgun.Middleware.AuthenticationHandler.Tests", "Mailgun.Middleware.AuthenticationHandler.Tests\Mailgun.Middleware.AuthenticationHandler.Tests.csproj", "{4D5DB25C-2BB6-47F5-B068-8EE5BC1866AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailgun.Middleware.AuthenticationHandler.Tests", "Mailgun.Middleware.AuthenticationHandler.Tests\Mailgun.Middleware.AuthenticationHandler.Tests.csproj", "{4D5DB25C-2BB6-47F5-B068-8EE5BC1866AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D7F5668-7F12-4695-B351-BE3D6673BC7D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
