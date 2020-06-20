@@ -1,7 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>1.0.0-beta0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Balazs Keresztury</Authors>
+    <Copyright>Copyright (c) 2020 Balazs Keresztury</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/belidzs/Mailgun.Middleware.AuthenticationHandler</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/belidzs/Mailgun.Middleware.AuthenticationHandler</RepositoryUrl>
+    <PackageTags>mailgun authenticationhandler aspnetcore middleware</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
